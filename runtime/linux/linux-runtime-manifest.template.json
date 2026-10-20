@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "not_built",
+  "runtimeId": "spider-linux-userland",
+  "runtimeVersion": "0.1.0-dev",
+  "applicationId": "com.iipauk.spider",
+  "supportedAbis": ["arm64-v8a", "armeabi-v7a", "x86_64", "x86"],
+  "archive": {
+    "format": "tar.gz",
+    "fileName": null,
+    "sha256": null,
+    "sizeBytes": null
+  },
+  "prefixLayout": ".",
+  "requiredPaths": ["bin/sh"],
+  "provenance": {
+    "buildSystem": "Termux packages build system with an app-specific prefix",
+    "sourceRepository": null,
+    "sourceCommit": null,
+    "builtAtUtc": null,
+    "customPackageIdentityVerified": false
+  },
+  "notes": "Template only. No archive is shipped, no runtime is installable, and no official com.termux bootstrap may be copied into this application's private prefix."
+}
